@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BTConverter</string>
+    <string name="field_label">Value to be converted (R$)</string>
+    <string name="field_hint">Value to be converted</string>
+    <string name="result_label">Convertion result</string>
+    <string name="button_label">Convert</string>
+</resources>
