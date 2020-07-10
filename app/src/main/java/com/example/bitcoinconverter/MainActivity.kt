@@ -15,7 +15,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         button.setOnClickListener {
-            ConvertTask().execute();
+            if (!value.text.isEmpty()) {
+                ConvertTask().execute();
+            }
         }
 
     }
